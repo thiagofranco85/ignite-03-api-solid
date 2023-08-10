@@ -1,0 +1,41 @@
+{
+  "name": "fastify-skeleton",
+  "version": "1.0.0",
+  "description": "Fastify APP with Knex, Zod, ESLint and etc",
+  "main": "server.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsup src --out-dir build",
+    "start": "node build/server.js",
+    "lint": "eslint src --ext .ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiagofranco85/fastify-skeleton.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thiagofranco85/fastify-skeleton/issues"
+  },
+  "homepage": "https://github.com/thiagofranco85/fastify-skeleton#readme",
+  "dependencies": {
+    "@prisma/client": "5.1.1",
+    "dotenv": "16.3.1",
+    "fastify": "4.21.0",
+    "knex": "2.5.1",
+    "mysql": "2.18.1",
+    "zod": "3.21.4"
+  },
+  "devDependencies": {
+    "@rocketseat/eslint-config": "2.1.0",
+    "@types/node": "20.4.5",
+    "eslint": "8.46.0",
+    "prisma": "5.1.1",
+    "tsup": "7.2.0",
+    "tsx": "3.12.7",
+    "typescript": "5.1.6"
+  }
+}
