@@ -1,6 +1,6 @@
 import { app } from './app'
 import { env } from './env'
-import { testeRoutes } from './routes/testeRoutes'
+import { testeRoutes } from './http/controllers/routes/testeRoutes'
 
 app.register(testeRoutes)
 
